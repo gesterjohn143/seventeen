@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEVENTEEN - Korean Boy Band</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home" class="logo">SEVENTEEN</a>
+            <ul>
+                <li><a href="#home" data-emoji="🏠">Home</a></li>
+                <li><a href="#members" data-emoji="👥">Members</a></li>
+                <li><a href="#albums" data-emoji="💿">Discography</a></li>
+                <li><a href="#about" data-emoji="💖">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>SEVENTEEN</h1>
+            <p>13 Members • 3 Units • 1 Team</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <section id="members" class="members-section">
+        <h2>Meet the Members</h2>
+        <div class="members-grid" id="membersGrid">
+            
+        </div>
+    </section>
+
+    
+    <div id="memberModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="" class="modal-image">
+                <div class="modal-info">
+                    <h2 id="modalName"></h2>
+                    <p id="modalKoreanName" class="korean-name"></p>
+                    <div class="modal-details">
+                        <p><strong>Position:</strong> <span id="modalPosition"></span></p>
+                        <p><strong>Birth Name:</strong> <span id="modalBirthName"></span></p>
+                        <p><strong>Birthday:</strong> <span id="modalBirthDate"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="albums" class="albums-section">
+        <h2>Latest Releases</h2>
+        <div class="albums-grid">
+            <div class="album-card">
+                <img src="images/fml.jpg" alt="Album Cover">
+                <h3>FML</h3>
+                <p>2023 • 4th Studio Album</p>
+            </div>
+            <div class="album-card">
+                <img src="images/fts.jpg" alt="Album Cover">
+                <h3>Face the Sun</h3>
+                <p>2022 • 4th Studio Album</p>
+            </div>
+            <div class="album-card">
+                <img src="images/att.jpg" alt="Album Cover">
+                <h3>Attacca</h3>
+                <p>2021 • 9th Mini Album</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About SEVENTEEN</h2>
+        <div class="about-content">
+            <p class="intro-text">SEVENTEEN (세븐틴) is a South Korean boy band formed by Pledis Entertainment. The group consists of 13 members divided into three units: Hip-Hop, Vocal, and Performance. Known for their self-producing abilities, the members actively participate in songwriting, choreography, and other aspects of their music and performances.</p>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">🎤</div>
+                    <h3>Vocal Unit</h3>
+                    <p>Woozi (Leader), Jeonghan, Joshua, DK, Seungkwan</p>
+                    <p class="description">The vocal unit showcases powerful harmonies and emotional ballads, with Woozi leading as the main producer.</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="about-icon">🎵</div>
+                    <h3>Hip-Hop Unit</h3>
+                    <p>S.Coups (Leader), Wonwoo, Mingyu, Vernon</p>
+                    <p class="description">The hip-hop unit brings powerful rap verses and dynamic performances with unique flow and style.</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="about-icon">💃</div>
+                    <h3>Performance Unit</h3>
+                    <p>Hoshi (Leader), Jun, The8, Dino</p>
+                    <p class="description">The performance unit delivers intricate choreography and captivating stage presence with precision.</p>
+                </div>
+            </div>
+
+            <div class="achievements">
+                <h3>Achievements & Milestones</h3>
+                <div class="achievement-list">
+                    <div class="achievement-item">
+                        <span class="achievement-year">2015</span>
+                        <span class="achievement-desc">Debut with "Adore U" - First K-pop group with 13 members</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-year">2016</span>
+                        <span class="achievement-desc">First win with "Pretty U" on The Show</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-year">2019</span>
+                        <span class="achievement-desc">First Korean artist to perform at Lollapalooza Berlin</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-year">2021</span>
+                        <span class="achievement-desc">"Your Choice" becomes first album to sell over 1 million copies</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-year">2023</span>
+                        <span class="achievement-desc">"FML" breaks records with over 4.6 million pre-orders</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fun-facts">
+                <h3>Fun Facts</h3>
+                <ul>
+                    <li>💎 The group name represents "13 members + 3 units + 1 team = SEVENTEEN"</li>
+                    <li>🎨 Woozi has produced and composed most of SEVENTEEN's discography</li>
+                    <li>🌟 Known as "Self-Producing Idols" - they create their own music and choreography</li>
+                    <li>🌍 Fandom name: CARAT (meaning they shine for each other)</li>
+                    <li>🎭 Hoshi choreographs most of their performances</li>
+                    <li>📱 Active on social media and variety shows, known for their humor and chemistry</li>
+                </ul>
+            </div>
+
+            <div class="social-section">
+                <h3>Connect with SEVENTEEN</h3>
+                <p class="social-subtitle">Follow us on social media for the latest updates!</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/saythename_17/?hl=en" class="social-icon instagram" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <span class="social-name">Instagram</span>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCfkXDY7vwkcJ8ddFGz8KusA" class="social-icon youtube" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                        <span class="social-name">YouTube</span>
+                    </a>
+                    <a href="https://x.com/pledis_17" class="social-icon twitter" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                        <span class="social-name">X (Twitter)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SEVENTEEN. All rights reserved. -Jaznine Andasa-.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
